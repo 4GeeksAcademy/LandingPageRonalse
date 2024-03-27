@@ -11,7 +11,7 @@ const Card =(props) => {
                 <div className="card-body">
                     <h5 className="card-title">{imagen.name}</h5>
                     <p className="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                    <a href="https://www.youtube.com/watch?v=eNLjdPI9zdE&ab_channel=ElReinoInfantil" className={`${imagen.BotonColor}`}>
+                    <a href="https://www.youtube.com/watch?v=eNLjdPI9zdE&ab_channel=ElReinoInfantil" target="_blank" className={`${imagen.BotonColor}`}>
                         find out more
                     </a>
                 </div>
